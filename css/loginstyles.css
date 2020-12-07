@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logform{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../img/kerala.jpg);
+    background-position: center;
+    background-size: auto;
+    position: absolute;
+}
+
+.form-box{
+    width: 350px;
+    height: 537px;
+    position: relative;
+    bottom: 55px;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+
+.toggle-btn1{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    position: relative;
+    margin: none;
+}
+.toggle-btn2{
+    padding: 10px 20px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    position: relative;
+    margin: none;
+}
+#btn{
+    top:0;
+    left:0;
+    position: absolute;
+    width:110px;
+    height: 100%;
+    background: linear-gradient(to right,#0d10d9,#6bf2ee);
+    border-radius: 30px;
+    transition: .5s;
+    border: none;
+    outline: none;
+    outline: 0 !important;
+}
+.social-icons{
+    margin: 30px auto;
+    text-align: center;
+}
+
+.social-icons img{
+    width: 30px;
+    margin: 0 12px;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.input-group{
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.submit-btn{
+    width: 85%;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,#0d10d9,#6bf2ee);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    align-self: left;
+    position: relative; right:40px; top:15px;
+}
+
+.check-box{
+    margin: 10px 10px 20px 10px;
+}
+.check-box-2{
+    margin: 10px 10px 20px 10px;
+}
+
+.pass{
+    color: #777;
+    font-size: 12px;
+    bottom:68px;
+    position: absolute;
+}
+
+#login{
+    left:50px;
+}
+
+#register{
+    left:450px;
+}
+
+.pos{
+    position: relative;
+    left:400px;
+    bottom:310px;
+}
+.submit-btn-2{
+    width: 85%;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,#0d10d9,#6bf2ee);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    align-self: left;
+    position: relative;
+}
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 283px; /* .push must be the same height as .footer */
+}
